@@ -1,0 +1,14 @@
+.sampul{
+    background-color: #434242;
+    height: 900px;
+    text-align: center;
+}
+ .daftar{
+    text-align: left;
+    color: white;
+    display: grid;
+}
+
+ .btn-daftar{
+    text-align: right;
+}

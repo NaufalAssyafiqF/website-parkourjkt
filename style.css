@@ -1,0 +1,116 @@
+body,html{
+    height: 100%;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+
+h2,h3,p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#navbarNav{
+    justify-content: flex-end;
+}
+
+#navbar{
+    background-color: #434242;
+    position: fixed;
+    width: 100%;
+    z-index: 4;
+}
+
+.sampul{
+    
+    background-image: url("assets/sampul.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    background-color: black;
+    opacity: 0.4;
+}
+
+.text-sampul{
+    position: relative;
+    color: white;
+    top: 150px;
+}
+
+.bag2{
+    background-color: #f5c91a;
+    height: 500px;
+}
+
+.table{
+    width: 700px;
+    text-align: justify;
+    justify-content: center;
+}
+
+.bag3{
+    background-color: #434242;
+    height: 600px;
+}
+
+.bag4{
+    background-color: #f5c91a;
+    height: 550px;
+}
+
+.bag5{
+    background-color: #434242;
+    height: 400px;
+}
+
+.vdo{
+    display: flex;
+    justify-content: center;
+}
+
+.link{
+    text-decoration: none;
+    color: #f5c91a;
+    font-size: large;
+}
+.group-link{
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-evenly;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: #1c1b1b;
+    /* height: 50px; */
+    
+}
+
+.audio{
+    text-align: center;
+}
+
+@media  screen and (max-width:500px){
+    
+    .vidio{
+        display: flex;
+        left: 0;
+        width: 400px;
+        justify-content: center;
+    }
+    .link{
+        font-size: small;
+    }
+}
